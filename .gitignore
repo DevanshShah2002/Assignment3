@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Data (large files — use Git LFS or exclude)
+data/*.jsonl
+data/*.json
+
+# Checkpoints (large — store separately)
+checkpoints/
+
+# Logs
+logs/*.log
+logs/*.err
+
+# Results (commit aggregated_results.json but not raw response files)
+results/checkpoint_*_responses.jsonl
+results/pairwise_*.jsonl
+results/json_judge_*.jsonl
+
+# HuggingFace cache
+.HF_cache/
+
+# VS Code
+.vscode/

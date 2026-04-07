@@ -1,0 +1,117 @@
+{
+  "checkpoint_0_base": {
+    "total_samples": 100,
+    "json_validity_rate": 0.39,
+    "schema_compliance_rate": 0.3,
+    "exact_match_rate": 0.03,
+    "field_level_f1": 0.5214,
+    "error_taxonomy": {
+      "other": 46,
+      "missing_bracket": 4,
+      "wrong_type": 9,
+      "invalid_string_escape": 2
+    },
+    "per_task_validity": {
+      "json_extraction": {
+        "validity_rate": 0.5,
+        "valid": 10,
+        "total": 20
+      },
+      "schema_constrained_generation": {
+        "validity_rate": 0.2,
+        "valid": 4,
+        "total": 20
+      },
+      "json_classification": {
+        "validity_rate": 0.8,
+        "valid": 16,
+        "total": 20
+      },
+      "json_repair": {
+        "validity_rate": 0.15,
+        "valid": 3,
+        "total": 20
+      },
+      "tool_call_generation": {
+        "validity_rate": 0.3,
+        "valid": 6,
+        "total": 20
+      }
+    }
+  },
+  "checkpoint_1_alpaca": {
+    "total_samples": 100,
+    "json_validity_rate": 0.33,
+    "schema_compliance_rate": 0.27,
+    "exact_match_rate": 0.16,
+    "field_level_f1": 0.7899,
+    "error_taxonomy": {
+      "other": 57,
+      "missing_bracket": 10
+    },
+    "per_task_validity": {
+      "json_extraction": {
+        "validity_rate": 0.55,
+        "valid": 11,
+        "total": 20
+      },
+      "schema_constrained_generation": {
+        "validity_rate": 0.0,
+        "valid": 0,
+        "total": 20
+      },
+      "json_classification": {
+        "validity_rate": 0.35,
+        "valid": 7,
+        "total": 20
+      },
+      "json_repair": {
+        "validity_rate": 0.35,
+        "valid": 7,
+        "total": 20
+      },
+      "tool_call_generation": {
+        "validity_rate": 0.4,
+        "valid": 8,
+        "total": 20
+      }
+    }
+  },
+  "checkpoint_2_teacher_json": {
+    "total_samples": 100,
+    "json_validity_rate": 0.34,
+    "schema_compliance_rate": 0.33,
+    "exact_match_rate": 0.12,
+    "field_level_f1": 0.6382,
+    "error_taxonomy": {
+      "other": 66
+    },
+    "per_task_validity": {
+      "json_extraction": {
+        "validity_rate": 0.3,
+        "valid": 6,
+        "total": 20
+      },
+      "schema_constrained_generation": {
+        "validity_rate": 0.3,
+        "valid": 6,
+        "total": 20
+      },
+      "json_classification": {
+        "validity_rate": 0.35,
+        "valid": 7,
+        "total": 20
+      },
+      "json_repair": {
+        "validity_rate": 0.35,
+        "valid": 7,
+        "total": 20
+      },
+      "tool_call_generation": {
+        "validity_rate": 0.4,
+        "valid": 8,
+        "total": 20
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+# ============================================================
+# Assignment 3: Sequential Instruction Tuning Configuration
+# LLM & Agentic Systems - UTSA Graduate Course
+# ============================================================
+
+# ── Model ────────────────────────────────────────────────────
+model:
+  student_model: "microsoft/Phi-3.5-mini-instruct"
+  teacher_model: "llama-3.3-70b-instruct-awq"
+  judge_model: "llama-3.3-70b-instruct-awq"
+  trust_remote_code: true
+
+# ── QLoRA / PEFT ─────────────────────────────────────────────
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  # Phi-3.5 Mini target modules
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+# ── BitsAndBytes (4-bit quantization) ────────────────────────
+bnb:
+  load_in_4bit: true
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_compute_dtype: "bfloat16"
+  bnb_4bit_use_double_quant: true
+
+# ── Stage 1: Alpaca Fine-Tuning ───────────────────────────────
+stage1:
+  dataset: "yahma/alpaca-cleaned"          # Alpaca-Cleaned from HuggingFace
+  train_split: 0.95
+  eval_split: 0.05
+  max_train_samples: 10000                 # Use subset for HPC efficiency; set null for full
+  eval_holdout_samples: 200                # Held-out for final eval (never trained on)
+  num_train_epochs: 3
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 4           # Effective batch = 16
+  learning_rate: 2.0e-5
+  lr_scheduler_type: "cosine"
+  warmup_ratio: 0.03
+  max_seq_length: 1024
+  weight_decay: 0.001
+  max_grad_norm: 0.3
+  save_steps: 100
+  logging_steps: 10
+  output_dir: "/work/${USER}/assignment3/checkpoints/stage1"
+  optim: "paged_adamw_8bit"
+  gradient_checkpointing: true
+  fp16: false
+  bf16: true
+  seed: 42
+
+# ── Stage 2: Teacher-JSON Fine-Tuning ────────────────────────
+# CHANGES vs original:
+#   learning_rate : 2.0e-5  →  5.0e-6  (reduce catastrophic forgetting)
+#   num_train_epochs : 3    →  1       (less overwriting of Stage 1 knowledge)
+#   warmup_ratio : 0.03     →  0.05    (smoother ramp-up on small dataset)
+#   max_grad_norm : 0.3     →  0.2     (tighter gradient clipping)
+stage2:
+  dataset_path: "data/teacher_json_dataset.jsonl"
+  train_split: 0.90
+  eval_split: 0.10
+  eval_holdout_samples: 100
+  num_train_epochs: 2           # was 3 — fewer epochs = less forgetting
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 4
+  learning_rate: 5.0e-6         # was 2.0e-5 — lower LR preserves Stage 1 gains
+  lr_scheduler_type: "cosine"
+  warmup_ratio: 0.05            # was 0.03 — smoother start on small dataset
+  max_seq_length: 1024
+  weight_decay: 0.001
+  max_grad_norm: 0.2            # was 0.3 — tighter clipping
+  save_steps: 50
+  logging_steps: 10
+  output_dir: "/work/${USER}/assignment3/checkpoints/stage2"
+  optim: "paged_adamw_8bit"
+  gradient_checkpointing: true
+  fp16: false
+  bf16: true
+  seed: 42
+  # Load Stage 1 adapter as starting point
+  stage1_adapter_path: "/work/${USER}/assignment3/checkpoints/stage1"
+
+# ── Data Generation ──────────────────────────────────────────
+data_gen:
+  n_samples_per_task: 200       # 200 × 5 tasks = 1000 total teacher examples
+  teacher_max_new_tokens: 512
+  teacher_temperature: 0.3
+  teacher_top_p: 0.9
+  output_path: "data/teacher_json_dataset.jsonl"
+  teacher_api_base: "http://10.246.100.230/v1"
+
+# ── Evaluation ───────────────────────────────────────────────
+eval:
+  alpaca_eval_samples: 150       # >= 100 as required
+  json_eval_samples: 100         # >= 100 covering 5 task types (20 each)
+  judge_max_new_tokens: 1024
+  judge_temperature: 0.1
+  results_dir: "results"
+  inference_batch_size: 4
+  max_new_tokens: 512
+
+# ── Ablation Study ───────────────────────────────────────────
+ablation:
+  # Vary Stage 2 epochs
+  epoch_variants: [1, 2, 3]
+  # Vary Stage 2 learning rate
+  lr_variants: [2.0e-5, 1.0e-5, 5.0e-6]
+  # Vary dataset size fraction
+  data_fraction_variants: [1.0, 0.5, 0.25]
+
+# ── ARC HPC ──────────────────────────────────────────────────
+hpc:
+  partition: "gpu"
+  gres: "gpu:v100:1"
+  cpus_per_task: 10
+  mem: "64G"
+  time: "12:00:00"
+  conda_env: "/work/${USER}/envs/assignment3"
+  work_dir: "/work/${USER}/assignment3"

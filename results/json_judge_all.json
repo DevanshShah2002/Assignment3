@@ -1,0 +1,4184 @@
+{
+  "checkpoint_0_base": [
+    {
+      "prompt_id": "json_eval_0000",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 2,
+        "factual_accuracy": 2,
+        "formatting_quality": 4
+      },
+      "error_category": "missing_fields",
+      "comments": "The response is missing several required fields, including state, phone, hours, and cuisine_types. The price_range is also not formatted as expected."
+    },
+    {
+      "prompt_id": "json_eval_0001",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The JSON output is valid and well-formatted, but it contains extra fields ('item_name' instead of 'name', 'price_per_unit' instead of 'price') in the items array."
+    },
+    {
+      "prompt_id": "json_eval_0002",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "Registration fee should be an integer, not a string."
+    },
+    {
+      "prompt_id": "json_eval_0003",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'salary' field is a string instead of a number and 'city' has extra information."
+    },
+    {
+      "prompt_id": "json_eval_0004",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "Registration fee should be an integer, not a string."
+    },
+    {
+      "prompt_id": "json_eval_0005",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The JSON output is valid and well-formatted, but it contains extra fields ('item_name' instead of 'name', 'price_per_unit' instead of 'price') in the items array."
+    },
+    {
+      "prompt_id": "json_eval_0006",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The JSON output is valid and well-formatted, but it contains extra fields ('item_name' instead of 'name', 'price_per_unit' instead of 'price') in the items array."
+    },
+    {
+      "prompt_id": "json_eval_0007",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'medications' field is an array instead of a string as expected."
+    },
+    {
+      "prompt_id": "json_eval_0008",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains an extra field 'percentage_languages' and 'emplated' which seems to be a typo for 'forks'."
+    },
+    {
+      "prompt_id": "json_eval_0009",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains an extra field 'percentage_languages' and 'emplated' which seems to be a typo for 'forks'."
+    },
+    {
+      "prompt_id": "json_eval_0010",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "missing_field",
+      "comments": "Missing 'arrival_time' field and incorrect field name 'eed_time' instead of 'departure_time', also 'class' is an extra field"
+    },
+    {
+      "prompt_id": "json_eval_0011",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The JSON output is valid and well-formatted, but it contains extra fields ('item_name' instead of 'name', 'price_per_unit' instead of 'price') in the items array."
+    },
+    {
+      "prompt_id": "json_eval_0012",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The medications field is an array of objects instead of a comma-separated string as expected."
+    },
+    {
+      "prompt_id": "json_eval_0013",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains an extra field 'percentage_languages' and 'emplated' which seems to be a typo for 'forks'."
+    },
+    {
+      "prompt_id": "json_eval_0014",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formatted and valid, but there are minor discrepancies in schema compliance and factual accuracy compared to the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0015",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'weight_grams' field should be an integer, not a string."
+    },
+    {
+      "prompt_id": "json_eval_0016",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formatted and valid, but there are minor discrepancies in schema compliance and factual accuracy compared to the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0017",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields (secondary_languages, secondary_languages_percentages) not requested in the task."
+    },
+    {
+      "prompt_id": "json_eval_0018",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields (secondary_languages, secondary_languages_percentages) not requested in the task."
+    },
+    {
+      "prompt_id": "json_eval_0019",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains an extra field 'class' which is not required."
+    },
+    {
+      "prompt_id": "json_eval_0020",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object conforms to the given schema and is well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0021",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "truncated",
+      "comments": "The provided JSON object is not a valid JSON but rather a JSON schema definition. It lacks actual values for the required fields and is truncated."
+    },
+    {
+      "prompt_id": "json_eval_0022",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "truncated",
+      "comments": "The provided JSON object is not a valid JSON but rather a JSON schema definition. It lacks actual values for the defined properties and is truncated."
+    },
+    {
+      "prompt_id": "json_eval_0023",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is valid, compliant with the schema, and well-formatted. However, there seems to be a discrepancy in the calculation of the total cost."
+    },
+    {
+      "prompt_id": "json_eval_0024",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object conforms to the given schema and is well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0025",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "truncated",
+      "comments": "The provided JSON object is not a valid JSON but rather a JSON schema definition. It lacks actual values for the defined properties and is truncated."
+    },
+    {
+      "prompt_id": "json_eval_0026",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is valid, compliant with the schema, and well-formatted. However, there seems to be a discrepancy in the calculation of the total cost."
+    },
+    {
+      "prompt_id": "json_eval_0027",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object conforms to the given schema, with all required fields present and of the correct types. The field values are also reasonable and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0028",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object conforms to the given schema and is well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0029",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is valid, compliant with the schema, and well-formatted. However, there seems to be a discrepancy in the calculation of the total cost."
+    },
+    {
+      "prompt_id": "json_eval_0030",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is valid, compliant with the schema, and well-formatted. However, there seems to be a discrepancy in the calculation of the total cost."
+    },
+    {
+      "prompt_id": "json_eval_0031",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object conforms to the given schema, with all required fields present and of the correct types. The field values are also reasonable and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0032",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object conforms to the given schema and is well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0033",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object conforms to the given schema and is well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0034",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is valid, compliant with the schema, and well-formatted. However, there seems to be a discrepancy in the calculation of the total cost."
+    },
+    {
+      "prompt_id": "json_eval_0035",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object conforms to the given schema and is well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0036",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "truncated",
+      "comments": "The provided JSON object is not a valid JSON but rather a JSON schema definition. It lacks actual values for the defined properties and is truncated."
+    },
+    {
+      "prompt_id": "json_eval_0037",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is valid, compliant with the schema, and well-formatted. However, there seems to be a discrepancy in the calculation of the total cost."
+    },
+    {
+      "prompt_id": "json_eval_0038",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object conforms to the given schema, with all required fields present and of the correct types. The field values are also reasonable and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0039",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object conforms to the given schema, with all required fields present and of the correct types. The field values are also reasonable and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0040",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level and rationale could be more accurate compared to the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0041",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level could be 1.0 given the clear indication of Python syntax."
+    },
+    {
+      "prompt_id": "json_eval_0042",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a clear rationale. It accurately classifies the text as 'health' with a reasonable confidence level."
+    },
+    {
+      "prompt_id": "json_eval_0043",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level and rationale could be more aligned with the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0044",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level and rationale could be more concise."
+    },
+    {
+      "prompt_id": "json_eval_0045",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the rationale could be more concise and similar to the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0046",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a clear rationale for the phishing label."
+    },
+    {
+      "prompt_id": "json_eval_0047",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a clear rationale for the phishing label."
+    },
+    {
+      "prompt_id": "json_eval_0048",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 2,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but its factual accuracy is low due to misclassification of the text as an 'inquiry' instead of a 'request'."
+    },
+    {
+      "prompt_id": "json_eval_0049",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0050",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 2,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but its factual accuracy is low due to incorrect label classification."
+    },
+    {
+      "prompt_id": "json_eval_0051",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the rationale could be more concise."
+    },
+    {
+      "prompt_id": "json_eval_0052",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and high factual accuracy."
+    },
+    {
+      "prompt_id": "json_eval_0053",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 2,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is well-formatted and compliant with the schema, but its factual accuracy is low due to incorrect label classification."
+    },
+    {
+      "prompt_id": "json_eval_0054",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level and rationale could be more concise."
+    },
+    {
+      "prompt_id": "json_eval_0055",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level and rationale could be improved for better factual accuracy."
+    },
+    {
+      "prompt_id": "json_eval_0056",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level and rationale could be more accurate compared to the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0057",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level and rationale could be more accurate compared to the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0058",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the rationale could be more concise and similar to the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0059",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 2,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but its factual accuracy is low due to incorrect label classification."
+    },
+    {
+      "prompt_id": "json_eval_0060",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formatted, syntactically correct, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0061",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formatted, syntactically correct, and contains reasonable data."
+    },
+    {
+      "prompt_id": "json_eval_0062",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0063",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0064",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formatted and free of syntax errors."
+    },
+    {
+      "prompt_id": "json_eval_0065",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formatted and free of syntax errors."
+    },
+    {
+      "prompt_id": "json_eval_0066",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0067",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formatted and free of syntax errors."
+    },
+    {
+      "prompt_id": "json_eval_0068",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0069",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0070",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0071",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid, well-formatted, and schema-compliant. However, the 'apiuteur' endpoint seems to be a typo and might be intended to be 'api.example.com'."
+    },
+    {
+      "prompt_id": "json_eval_0072",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formatted, syntactically correct, and contains reasonable data."
+    },
+    {
+      "prompt_id": "json_eval_0073",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formatted, syntactically correct, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0074",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 4
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid, but the expected output has different formatting."
+    },
+    {
+      "prompt_id": "json_eval_0075",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response JSON is valid, well-formatted, and compliant with the expected schema. However, the 'apiuteur' domain in the original correction seems to be a typo and was corrected to 'api.example.com' for consistency."
+    },
+    {
+      "prompt_id": "json_eval_0076",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0077",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formatted, valid, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0078",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formatted, syntactically correct, and contains reasonable data."
+    },
+    {
+      "prompt_id": "json_eval_0079",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response JSON is valid, well-formatted, and mostly accurate, but there's a discrepancy in the 'endpoints' array where 'https://apiuteur.com/v2' was changed to 'https://api.example.com/v2' without clear justification."
+    },
+    {
+      "prompt_id": "json_eval_0080",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is well-formatted, valid, and compliant with the specified schema."
+    },
+    {
+      "prompt_id": "json_eval_0081",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "Annual rate should be a decimal value (e.g., 6.5% as 0.065) for consistency with typical financial calculations."
+    },
+    {
+      "prompt_id": "json_eval_0082",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is well-formatted, valid, and compliant with the specified schema."
+    },
+    {
+      "prompt_id": "json_eval_0083",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "Annual rate should be a decimal value (e.g., 6.5% as 0.065) for consistency with typical financial calculations."
+    },
+    {
+      "prompt_id": "json_eval_0084",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formatted and valid, but the 'files' field is missing and 'author' is set to null by default."
+    },
+    {
+      "prompt_id": "json_eval_0085",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "Annual rate should be a decimal value (e.g., 6.5% = 0.065) for consistency with typical financial calculations."
+    },
+    {
+      "prompt_id": "json_eval_0086",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is well-formatted, valid, and compliant with the given schema."
+    },
+    {
+      "prompt_id": "json_eval_0087",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "Annual rate should be a decimal value (e.g., 6.5% as 0.065) for consistency with typical financial calculations."
+    },
+    {
+      "prompt_id": "json_eval_0088",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is well-formatted, valid, and compliant with the given schema."
+    },
+    {
+      "prompt_id": "json_eval_0089",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is well-formed, contains all required fields with correct types, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0090",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "Annual rate should be a decimal value (e.g., 6.5% as 0.065) for consistency with typical financial calculations."
+    },
+    {
+      "prompt_id": "json_eval_0091",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON object is well-formed, contains all required fields with correct types, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0092",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is well-formatted, contains all required fields with correct types, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0093",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is well-formatted, valid, and compliant with the given schema."
+    },
+    {
+      "prompt_id": "json_eval_0094",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "Annual rate should be a decimal value (e.g., 6.5% as 0.065) for consistency with typical financial calculations."
+    },
+    {
+      "prompt_id": "json_eval_0095",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The units field should be 'imperial' instead of 'fahrenheit' for consistency with common weather API unit specifications."
+    },
+    {
+      "prompt_id": "json_eval_0096",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is well-formatted, contains all required fields with correct types, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0097",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON object is well-formed, contains all required fields with correct types, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0098",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is well-formatted, contains all required fields with correct types, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0099",
+      "checkpoint": "checkpoint_0_base",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is well-formatted, contains all required fields with correct types, and has reasonable field values."
+    }
+  ],
+  "checkpoint_1_alpaca": [
+    {
+      "prompt_id": "json_eval_0000",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'rating' field should be a number, not a string, and 'review_count' should be an integer. Also, 'address' and 'price_range' do not match the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0001",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON output is well-formed, schema-compliant, factually accurate, and clean."
+    },
+    {
+      "prompt_id": "json_eval_0002",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "Registration fee should be an integer, not a string."
+    },
+    {
+      "prompt_id": "json_eval_0003",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'salary' field should be a number, not a string, and the 'city' field had extra information."
+    },
+    {
+      "prompt_id": "json_eval_0004",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "Registration fee should be an integer, not a string."
+    },
+    {
+      "prompt_id": "json_eval_0005",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON output is well-formed, schema-compliant, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0006",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON output is well-formed, schema-compliant, factually accurate, and clean."
+    },
+    {
+      "prompt_id": "json_eval_0007",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'medications' field is an array instead of a string."
+    },
+    {
+      "prompt_id": "json_eval_0008",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object with all required fields present and correct types. The field values are also correct and reasonable."
+    },
+    {
+      "prompt_id": "json_eval_0009",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object with all required fields, correct types, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0010",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains an extra field 'class' which is not required."
+    },
+    {
+      "prompt_id": "json_eval_0011",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON output is well-formed, schema-compliant, factually accurate, and clean."
+    },
+    {
+      "prompt_id": "json_eval_0012",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'medications' field is an array instead of a string as expected."
+    },
+    {
+      "prompt_id": "json_eval_0013",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formatted and valid JSON object with all required fields present and correct types."
+    },
+    {
+      "prompt_id": "json_eval_0014",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'salary' field is a string instead of a number and 'city' has extra information."
+    },
+    {
+      "prompt_id": "json_eval_0015",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'weight_grams' field should be an integer, not a string."
+    },
+    {
+      "prompt_id": "json_eval_0016",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'salary' field is a string instead of an integer and 'city' has extra information."
+    },
+    {
+      "prompt_id": "json_eval_0017",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object with all required fields, correct types, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0018",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object with all required fields, correct types, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0019",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains an extra field 'class' which is not required."
+    },
+    {
+      "prompt_id": "json_eval_0020",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields from the schema definition and is missing the required 'user_id' field."
+    },
+    {
+      "prompt_id": "json_eval_0021",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, compliant with the schema, and well-formatted. However, the factual accuracy is subjective and depends on the context of the experiment."
+    },
+    {
+      "prompt_id": "json_eval_0022",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is valid, compliant with the schema, and well-formatted. However, the factual accuracy score is 4 because the evaluation of the field values' correctness or reasonableness is subjective and depends on the context of the experiment."
+    },
+    {
+      "prompt_id": "json_eval_0023",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object conforms to the given schema, has valid JSON syntax, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0024",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields from the schema definition and is missing the required 'user_id' field."
+    },
+    {
+      "prompt_id": "json_eval_0025",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, compliant with the schema, and well-formatted. However, the factual accuracy is subjective and depends on the context of the experiment."
+    },
+    {
+      "prompt_id": "json_eval_0026",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object conforms to the given schema, has valid JSON syntax, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0027",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, fully compliant with the schema, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0028",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields from the schema definition and is missing the required 'user_id' field."
+    },
+    {
+      "prompt_id": "json_eval_0029",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object conforms to the given schema, has valid JSON syntax, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0030",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object conforms to the given schema, has valid JSON syntax, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0031",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, compliant with the schema, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0032",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields from the schema definition and is missing the required 'user_id' field."
+    },
+    {
+      "prompt_id": "json_eval_0033",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields from the schema definition and is missing the required 'user_id' field."
+    },
+    {
+      "prompt_id": "json_eval_0034",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object conforms to the given schema, has valid JSON syntax, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0035",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields from the schema definition and is missing the required 'user_id' field."
+    },
+    {
+      "prompt_id": "json_eval_0036",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, compliant with the schema, and well-formatted. However, the factual accuracy is subjective and depends on the context of the experiment."
+    },
+    {
+      "prompt_id": "json_eval_0037",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object conforms to the given schema, has valid JSON syntax, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0038",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, compliant with the schema, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0039",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, compliant with the schema, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0040",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object with all required fields, but the confidence level and rationale could be improved for better factual accuracy."
+    },
+    {
+      "prompt_id": "json_eval_0041",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is almost perfect, but the confidence level could be 1.0 as in the reference output, and the rationale could match the reference more closely."
+    },
+    {
+      "prompt_id": "json_eval_0042",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a reasonable rationale for the classification."
+    },
+    {
+      "prompt_id": "json_eval_0043",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is almost perfect, but the confidence level and rationale differ slightly from the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0044",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is almost perfect, but the confidence level and rationale could be more closely aligned with the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0045",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON with all required fields, but the rationale could be more concise and directly related to the text's content."
+    },
+    {
+      "prompt_id": "json_eval_0046",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON with all required fields, but the confidence level and rationale differ slightly from the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0047",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON with all required fields, but the confidence level and rationale differ slightly from the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0048",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "missing_bracket",
+      "comments": "The response is not a valid JSON object, missing brackets and not formatted correctly."
+    },
+    {
+      "prompt_id": "json_eval_0049",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0050",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "missing_bracket",
+      "comments": "The response is not a valid JSON object, missing brackets and not following the expected format."
+    },
+    {
+      "prompt_id": "json_eval_0051",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON with all required fields, but the rationale could be more concise."
+    },
+    {
+      "prompt_id": "json_eval_0052",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a reasonable rationale for the classification."
+    },
+    {
+      "prompt_id": "json_eval_0053",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "missing_bracket",
+      "comments": "The response is not a valid JSON object, missing brackets and not formatted correctly."
+    },
+    {
+      "prompt_id": "json_eval_0054",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is almost perfect, but the confidence level and rationale could be more closely aligned with the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0055",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is almost perfect, but the confidence level and rationale could be more closely aligned with the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0056",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level and rationale could be improved for better factual accuracy."
+    },
+    {
+      "prompt_id": "json_eval_0057",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level and rationale could be improved for better factual accuracy."
+    },
+    {
+      "prompt_id": "json_eval_0058",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON with all required fields, but the rationale could be more concise and directly related to the text's content."
+    },
+    {
+      "prompt_id": "json_eval_0059",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_classification",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "missing_bracket",
+      "comments": "The response is not a valid JSON object, missing brackets and not following the expected format."
+    },
+    {
+      "prompt_id": "json_eval_0060",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 4
+      },
+      "error_category": "null",
+      "comments": "The JSON is valid, but the formatting could be improved for better readability."
+    },
+    {
+      "prompt_id": "json_eval_0061",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formed and accurate."
+    },
+    {
+      "prompt_id": "json_eval_0062",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0063",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid, well-formatted, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0064",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0065",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0066",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid, well-formatted, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0067",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0068",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 4
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid, but the formatting could be improved for better readability."
+    },
+    {
+      "prompt_id": "json_eval_0069",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0070",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid, well-formatted, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0071",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0072",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formed and accurate."
+    },
+    {
+      "prompt_id": "json_eval_0073",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 4
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid but has unnecessary whitespace."
+    },
+    {
+      "prompt_id": "json_eval_0074",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid, well-formatted, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0075",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0076",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0077",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 4
+      },
+      "error_category": "null",
+      "comments": "The JSON is valid, but the formatting could be improved for better readability."
+    },
+    {
+      "prompt_id": "json_eval_0078",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is well-formatted and free of syntax errors."
+    },
+    {
+      "prompt_id": "json_eval_0079",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0080",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is mostly accurate, but the body field contains extra information not present in the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0081",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is well-formed, compliant with the schema, and contains reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0082",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is mostly accurate, but the body field contains extra information not present in the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0083",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is well-formed, compliant with the schema, and contains reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0084",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The JSON object contains an extra field 'amend' which is not required and 'files' is missing but has a default value of None, 'author' is also correctly set to null as it is optional."
+    },
+    {
+      "prompt_id": "json_eval_0085",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON object is well-formed, compliant with the schema, and contains reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0086",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains an extra 'description' field which is not present in the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0087",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON object is well-formed, compliant with the schema, and contains reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0088",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, compliant with the schema, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0089",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, all required fields are present with correct types, and the field values are reasonable."
+    },
+    {
+      "prompt_id": "json_eval_0090",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON object is well-formed, compliant with the schema, and contains reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0091",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, includes all required fields with correct types, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0092",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, compliant with the schema, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0093",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, compliant with the schema, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0094",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is well-formed, compliant with the schema, and contains reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0095",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The units field should be 'imperial' instead of 'fahrenheit' for consistency with the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0096",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, compliant with the schema, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0097",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, includes all required fields with correct types, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0098",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, adheres to the schema, and contains reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0099",
+      "checkpoint": "checkpoint_1_alpaca",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, adheres to the schema, and contains reasonable values."
+    }
+  ],
+  "checkpoint_2_teacher_json": [
+    {
+      "prompt_id": "json_eval_0000",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is mostly correct, but the price_range field has an incorrect value and the address field contains the full address including city and state, instead of just the street address."
+    },
+    {
+      "prompt_id": "json_eval_0001",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The tax_rate field should be an integer representing the percentage, not a float."
+    },
+    {
+      "prompt_id": "json_eval_0002",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is mostly correct, but the date format in the start_date and end_date fields does not match the expected format."
+    },
+    {
+      "prompt_id": "json_eval_0003",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is mostly correct but has a minor discrepancy in the 'city' field and the 'join_date' format."
+    },
+    {
+      "prompt_id": "json_eval_0004",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is mostly correct, but the date formats in the start_date and end_date fields do not match the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0005",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The tax_rate field should be an integer representing the percentage, not a float."
+    },
+    {
+      "prompt_id": "json_eval_0006",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The tax_rate field should be an integer representing the percentage, not a float."
+    },
+    {
+      "prompt_id": "json_eval_0007",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The medications field is expected to be a string, but it's an array in the model response."
+    },
+    {
+      "prompt_id": "json_eval_0008",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields present and correct types, and the values seem reasonable."
+    },
+    {
+      "prompt_id": "json_eval_0009",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields present and correct types, and the values seem reasonable."
+    },
+    {
+      "prompt_id": "json_eval_0010",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains an extra field 'class' which is not required."
+    },
+    {
+      "prompt_id": "json_eval_0011",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The tax_rate field should be an integer representing the percentage, not a float."
+    },
+    {
+      "prompt_id": "json_eval_0012",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "wrong_type",
+      "comments": "The 'medications' field is expected to be a string, but it's an array in the response."
+    },
+    {
+      "prompt_id": "json_eval_0013",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is well-formed, adheres to the specified schema, contains reasonable values, and is cleanly formatted."
+    },
+    {
+      "prompt_id": "json_eval_0014",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is mostly correct but has a minor discrepancy in the 'city' field and the 'join_date' format."
+    },
+    {
+      "prompt_id": "json_eval_0015",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON object is well-formed, compliant with the schema, and contains reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0016",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is mostly correct, but the city field has an extra state and the join_date field has a different format than the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0017",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields present and correct types, and the values seem reasonable."
+    },
+    {
+      "prompt_id": "json_eval_0018",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields present and correct types, and the values seem reasonable."
+    },
+    {
+      "prompt_id": "json_eval_0019",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_extraction",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains an extra field 'class' which is not required."
+    },
+    {
+      "prompt_id": "json_eval_0020",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields and does not conform to the expected JSON object structure."
+    },
+    {
+      "prompt_id": "json_eval_0021",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, fully compliant with the schema, and well-formatted. However, the factual accuracy score is 4 because the evaluation of 'factual accuracy' depends on the context of the experiment, which is not provided."
+    },
+    {
+      "prompt_id": "json_eval_0022",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, strictly conforms to the schema, and is well-formatted. However, the factual accuracy score is 4 because the field values, although reasonable, do not match the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0023",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, compliant with the schema, and well-formatted. However, the factual accuracy is slightly lower due to differences in the expected output reference."
+    },
+    {
+      "prompt_id": "json_eval_0024",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields and does not conform to the expected JSON object structure."
+    },
+    {
+      "prompt_id": "json_eval_0025",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, strictly conforms to the schema, and is well-formatted. However, the factual accuracy is not perfect as the values are not exactly the same as the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0026",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, compliant with the schema, and well-formatted. However, the factual accuracy is slightly lower due to differences in the example values compared to the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0027",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, compliant with the schema, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0028",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields and does not conform to the expected JSON object structure."
+    },
+    {
+      "prompt_id": "json_eval_0029",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, compliant with the schema, and well-formatted. However, the factual accuracy is slightly lower due to differences in the expected output reference."
+    },
+    {
+      "prompt_id": "json_eval_0030",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, compliant with the schema, and well-formatted. However, the factual accuracy is slightly lower due to differences in the expected output reference."
+    },
+    {
+      "prompt_id": "json_eval_0031",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, compliant with the schema, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0032",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields and does not conform to the expected JSON object structure."
+    },
+    {
+      "prompt_id": "json_eval_0033",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields and does not conform to the expected JSON object structure."
+    },
+    {
+      "prompt_id": "json_eval_0034",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, compliant with the schema, and well-formatted. However, the factual accuracy is slightly lower due to differences in the expected output reference."
+    },
+    {
+      "prompt_id": "json_eval_0035",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "extra_fields",
+      "comments": "The response contains extra fields and does not conform to the expected JSON object structure."
+    },
+    {
+      "prompt_id": "json_eval_0036",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, fully compliant with the schema, and well-formatted. However, factual accuracy is subjective and depends on the context of the experiment."
+    },
+    {
+      "prompt_id": "json_eval_0037",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object, fully compliant with the schema, and well-formatted. However, factual accuracy is somewhat subjective and depends on the context of the order details."
+    },
+    {
+      "prompt_id": "json_eval_0038",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, compliant with the schema, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0039",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "schema_constrained_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, compliant with the schema, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0040",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON with all required fields, but the confidence level and rationale could be improved for better factual accuracy."
+    },
+    {
+      "prompt_id": "json_eval_0041",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is almost perfect, but the confidence level could be 1.0 as in the reference output, and the rationale could be more concise."
+    },
+    {
+      "prompt_id": "json_eval_0042",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a reasonable rationale for the classification."
+    },
+    {
+      "prompt_id": "json_eval_0043",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is a perfect example of a well-structured response."
+    },
+    {
+      "prompt_id": "json_eval_0044",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON with all required fields, but the rationale does not perfectly match the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0045",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is well-structured, adheres to the specified schema, and contains reasonable values for classification."
+    },
+    {
+      "prompt_id": "json_eval_0046",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is well-formed, compliant with the expected schema, and contains reasonable values for the given task."
+    },
+    {
+      "prompt_id": "json_eval_0047",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON object is well-formed, compliant with the expected schema, and contains reasonable values for the given task."
+    },
+    {
+      "prompt_id": "json_eval_0048",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a clear rationale."
+    },
+    {
+      "prompt_id": "json_eval_0049",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0050",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a clear rationale."
+    },
+    {
+      "prompt_id": "json_eval_0051",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields present and correct types. The rationale provided is reasonable, but the confidence level and specific wording might vary depending on the context."
+    },
+    {
+      "prompt_id": "json_eval_0052",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a clear rationale for the chosen label."
+    },
+    {
+      "prompt_id": "json_eval_0053",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a clear rationale."
+    },
+    {
+      "prompt_id": "json_eval_0054",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON with all required fields, but the rationale does not perfectly match the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0055",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON with all required fields, but the rationale could be more specific and detailed like the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0056",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON with all required fields, but the confidence level and rationale could be more accurate based on the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0057",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is well-formatted and compliant with the schema, but the confidence level and rationale differ slightly from the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0058",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object with all required fields, but the rationale could be more concise and directly related to the text's content."
+    },
+    {
+      "prompt_id": "json_eval_0059",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_classification",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a well-formed JSON object with all required fields, correct types, and a clear rationale."
+    },
+    {
+      "prompt_id": "json_eval_0060",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0061",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The input JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0062",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "error": "parse_failed",
+      "raw": "Since there is no malformed JSON provided to fix, I will assume the task is to evaluate the expected output as a reference. Here is my evaluation:\n\n```\n{\n  \"prompt_id\": \"json_eval_0062\",\n  \"json_valid\": true,\n  \"scores\": {\n    \"validity\": 5,\n    \"schema_compliance\": 5,\n    \"factual_accuracy\": 5,\n    \"formatting_quality\": 5\n  },\n  \"error_category\": \"null\",\n  \"comments\": \"The provided reference JSON is well-formed and meets all criteria.\"\n}\n```"
+    },
+    {
+      "prompt_id": "json_eval_0063",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The input JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0064",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0065",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0066",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The input JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0067",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0068",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 4
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is valid, but the formatting could be improved for better readability."
+    },
+    {
+      "prompt_id": "json_eval_0069",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "error": "parse_failed",
+      "raw": "Since there is no malformed JSON provided to fix, I will assume the task is to evaluate the expected output as a reference. Here is my evaluation:\n\n```\n{\n  \"prompt_id\": \"json_eval_0069\",\n  \"json_valid\": true,\n  \"scores\": {\n    \"validity\": 5,\n    \"schema_compliance\": 5,\n    \"factual_accuracy\": 5,\n    \"formatting_quality\": 5\n  },\n  \"error_category\": \"null\",\n  \"comments\": \"The provided reference JSON is well-formed and meets all criteria.\"\n}\n```"
+    },
+    {
+      "prompt_id": "json_eval_0070",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The input JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0071",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0072",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The input JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0073",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0074",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The input JSON was malformed, but after fixing the errors, it is now valid and properly formatted."
+    },
+    {
+      "prompt_id": "json_eval_0075",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0076",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "error": "parse_failed",
+      "raw": "Since there is no malformed JSON provided to fix, I will assume the task is to evaluate the expected output as a reference. Here is my evaluation:\n\n```\n{\n  \"prompt_id\": \"json_eval_0076\",\n  \"json_valid\": true,\n  \"scores\": {\n    \"validity\": 5,\n    \"schema_compliance\": 5,\n    \"factual_accuracy\": 5,\n    \"formatting_quality\": 5\n  },\n  \"error_category\": \"null\",\n  \"comments\": \"The provided reference JSON is well-formed and meets all criteria.\"\n}\n```"
+    },
+    {
+      "prompt_id": "json_eval_0077",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0078",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The input JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0079",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "json_repair",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The provided JSON is already valid and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0080",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object with all required fields present and correct types. The field values are also correct and reasonable. The JSON is well-formatted and clean."
+    },
+    {
+      "prompt_id": "json_eval_0081",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, schema-compliant, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0082",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The response is a valid JSON object with all required fields present and correct types. The field values are also correct and reasonable. The JSON is well-formatted and clean."
+    },
+    {
+      "prompt_id": "json_eval_0083",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, schema-compliant, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0084",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is well-formed, includes the required 'message' field, and has a valid boolean value for 'all_changes'."
+    },
+    {
+      "prompt_id": "json_eval_0085",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, schema-compliant, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0086",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 4,
+        "factual_accuracy": 4,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The response is mostly correct, but the datetime fields are in ISO format instead of a human-readable format like 'tomorrow 2:00pm'."
+    },
+    {
+      "prompt_id": "json_eval_0087",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, schema-compliant, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0088",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON object is well-formed, compliant with the schema, and contains reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0089",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, compliant with the schema, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0090",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, schema-compliant, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0091",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "other",
+      "comments": "The response is a function call, not a JSON object."
+    },
+    {
+      "prompt_id": "json_eval_0092",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, adheres to the schema, and contains reasonable values."
+    },
+    {
+      "prompt_id": "json_eval_0093",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": null,
+      "comments": "The JSON object is well-formed, includes all required fields with correct types, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0094",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The provided JSON object is valid, schema-compliant, factually accurate, and well-formatted."
+    },
+    {
+      "prompt_id": "json_eval_0095",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "other",
+      "comments": "The provided response is not a JSON object and does not match the expected output. The units should be 'imperial' instead of 'fahrenheit' to match the expected output."
+    },
+    {
+      "prompt_id": "json_eval_0096",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, compliant with the schema, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0097",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": false,
+      "scores": {
+        "validity": 1,
+        "schema_compliance": 1,
+        "factual_accuracy": 1,
+        "formatting_quality": 1
+      },
+      "error_category": "other",
+      "comments": "The response is a function call, not a JSON object."
+    },
+    {
+      "prompt_id": "json_eval_0098",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, compliant with the schema, and has reasonable field values."
+    },
+    {
+      "prompt_id": "json_eval_0099",
+      "checkpoint": "checkpoint_2_teacher_json",
+      "task_type": "tool_call_generation",
+      "json_valid": true,
+      "scores": {
+        "validity": 5,
+        "schema_compliance": 5,
+        "factual_accuracy": 5,
+        "formatting_quality": 5
+      },
+      "error_category": "null",
+      "comments": "The JSON object is well-formed, compliant with the schema, and has reasonable field values."
+    }
+  ]
+}

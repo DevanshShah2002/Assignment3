@@ -1,0 +1,69 @@
+{
+  "pairwise_alpoca": [
+    {
+      "checkpoint_a": "checkpoint_0_base",
+      "checkpoint_b": "checkpoint_1_alpaca",
+      "total_judged": 150,
+      "errors": 0,
+      "win_a": 121,
+      "win_b": 14,
+      "ties": 15,
+      "win_rate_a": 0.8067,
+      "win_rate_b": 0.0933,
+      "tie_rate": 0.1
+    },
+    {
+      "checkpoint_a": "checkpoint_1_alpaca",
+      "checkpoint_b": "checkpoint_2_teacher_json",
+      "total_judged": 150,
+      "errors": 0,
+      "win_a": 60,
+      "win_b": 40,
+      "ties": 50,
+      "win_rate_a": 0.4,
+      "win_rate_b": 0.2667,
+      "tie_rate": 0.3333
+    },
+    {
+      "checkpoint_a": "checkpoint_0_base",
+      "checkpoint_b": "checkpoint_2_teacher_json",
+      "total_judged": 150,
+      "errors": 0,
+      "win_a": 105,
+      "win_b": 25,
+      "ties": 20,
+      "win_rate_a": 0.7,
+      "win_rate_b": 0.1667,
+      "tie_rate": 0.1333
+    }
+  ],
+  "auto_metrics": [
+    {
+      "checkpoint": "checkpoint_0_base",
+      "n_samples": 150,
+      "rouge1": 0.426,
+      "rouge2": 0.1975,
+      "rougeL": 0.2864,
+      "bert_score_f1": 0.825,
+      "avg_response_length_tokens": 176.6
+    },
+    {
+      "checkpoint": "checkpoint_1_alpaca",
+      "n_samples": 150,
+      "rouge1": 0.4787,
+      "rouge2": 0.2394,
+      "rougeL": 0.3495,
+      "bert_score_f1": 0.8361,
+      "avg_response_length_tokens": 96.7
+    },
+    {
+      "checkpoint": "checkpoint_2_teacher_json",
+      "n_samples": 150,
+      "rouge1": 0.3943,
+      "rouge2": 0.1857,
+      "rougeL": 0.2938,
+      "bert_score_f1": 0.8071,
+      "avg_response_length_tokens": 67.9
+    }
+  ]
+}
